@@ -2,25 +2,84 @@
 <html>
   <head>
     <title>Haikus for Mona</title>
-    <link href="/css/main.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Haikus for Mona">
-    <meta property="og:description" content="Some of the best haikus you'll ever read about our rescue dog June">
-    <meta property="og:image" content="/images/sunlight.jpg">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link href="/css/main.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Shopping with CodeSpaces" />
+    <meta property="og:description" content="The best shopping on the web" />
+    <meta property="og:image" content="/images/sunlight.jpg" />
   </head>
   <body>
-    <h1>Haikus for Mona</h1>
-    <div>
-      <% for(var i=0; i < haikus.length; i++) { %>
-        <img
-          class="mona-images"
-          src="images/<%= haikus[i].image %>" />
-        <div 
-          class="haiku-containers">
-          <p 
-            class="haikus"
-          ><%- haikus[i].text %></p>
+    <header>
+      <nav class="navbar has-background-dark is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://svelte.dev/" target="_blank" rel="noopener noreferrer">
+            <img src="/images/vscode.png" alt="Svelte" />
+          </a>
+          <router-link to="/" class="navbar-item nav-home">
+            <span class="brand-first">Shopping</span>&nbsp; <span class="brand-second">With</span>&nbsp;
+            <span class="brand-third">CodeSpaces</span>
+          </router-link>
         </div>
-      <% } %>
+      </nav>
+    </header>
+
+    <div class="section columns">
+      <main class="column">
+        <div>
+          <div>
+            <div class="content-container">
+              <div class="content-title-group">
+                <h2 class="title">Products</h2>
+                <button class="button add-button" aria-label="add">
+                  <i class="fas fa-plus" aria-hidden="true"></i>
+                </button>
+                <button class="button refresh-button" aria-label="refresh">
+                  <i class="fas fa-sync" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div class="columns is-multiline is-variable">
+                <div class="column is-8">
+                  <ul class="list">
+                    <% for(var i=0; i < shopping.length; i++) { %>
+                    <li role="presentation">
+                      <div class="card">
+                        <div class="card-content">
+                          <div class="content columns">
+                            <div class="column is-9">
+                              <div class="name"><%= shopping[i].name %></div>
+                              <div class="description"><%= shopping[i].description %></div>
+                            </div>
+                            <div class="column is-3">
+                              <img class="product-image" src="/images/<%= shopping[i].image %>" />
+                            </div>
+                          </div>
+                        </div>
+                        <footer class="card-footer">
+                          <button class="link card-footer-item delete-item" aria-label="Delete" tabindex="0">
+                            <i class="fas fa-trash"></i>
+                            <span>Delete</span>
+                          </button>
+                          <button class="link card-footer-item edit-item" aria-label="Edit" tabindex="0">
+                            <i class="fas fa-edit"></i>
+                            <span>Edit</span>
+                          </button>
+                        </footer>
+                      </div>
+                    </li>
+                    <% } %>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
+  </body>
 </html>

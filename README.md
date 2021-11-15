@@ -129,6 +129,26 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
     <img src=".docs/sorting-code.png" width=600 alt="sorting code">
 
+   ```javascript
+   app.get('/', (req, res) => {
+     /// sort by name in ascending order
+     let sortedProducts = products.sort((a, b) => {
+       if (a.name < b.name) {
+         return -1;
+       }
+       if (a.name > b.name) {
+         return 1;
+       }
+       return 0;
+     });
+     res.render('index', { products: sortedProducts });
+
+     // res.render('index', { products });
+   });
+   ```
+
+    <img src=".docs/final-app.png" width=600 alt="final app">
+
 ### Merge your changes
 
 1. You stop the debugger.

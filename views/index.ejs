@@ -4,8 +4,7 @@
     <title>Shopping with CodeSpaces</title>
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      href="https://use.fontawesome.com/releases/v6.0.0-beta2/css/all.css"
       crossorigin="anonymous"
     />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
@@ -18,13 +17,21 @@
     <header>
       <nav class="navbar has-background-dark is-dark" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="https://svelte.dev/" target="_blank" rel="noopener noreferrer">
-            <img src="/images/vscode.png" alt="Svelte" />
+          <a class="navbar-item" href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+            <img src="/images/vscode.png" alt="VS Code" />
           </a>
-          <router-link to="/" class="navbar-item nav-home">
+          <div class="navbar-item nav-home">
             <span class="brand-first">Shopping</span>&nbsp; <span class="brand-second">With</span>&nbsp;
             <span class="brand-third">CodeSpaces</span>
-          </router-link>
+          </div>
+          <a
+            class="navbar-item"
+            href="https://github.com/johnpapa/shopping-for-codespaces/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
+          </a>
         </div>
       </nav>
     </header>
@@ -56,7 +63,7 @@
                               <div class="description"><%= shopping[i].description %></div>
                             </div>
                             <div class="column is-3">
-                              <img class="product-image" src="/images/<%= shopping[i].image %>" />
+                              <i class="<%= shopping[i].imageClass %>" aria-hidden="true"></i>
                             </div>
                           </div>
                         </div>

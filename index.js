@@ -1,6 +1,6 @@
 let express = require('express');
 let app = express();
-let ejs = require('ejs');
+// let ejs = require('ejs');
 const shopping = require('./shopping.json');
 const port = process.env.PORT || 3000;
 

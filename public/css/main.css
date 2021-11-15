@@ -1230,7 +1230,7 @@ fieldset[disabled] .button.is-primary.is-inverted.is-outlined {
   color: #fff;
 }
 .button.is-primary.is-light {
-  background-color: #f38560;
+  background-color: #209cef;
   color: #db3500;
 }
 .button.is-primary.is-light:hover,
@@ -2399,7 +2399,7 @@ div.icon-text {
   color: #fff;
 }
 .notification.is-primary.is-light {
-  background-color: #f38560;
+  background-color: #209cef;
   color: #db3500;
 }
 .notification.is-link {
@@ -2885,7 +2885,7 @@ div.icon-text {
   color: #fff;
 }
 .tag:not(body).is-primary.is-light {
-  background-color: #f38560;
+  background-color: #209cef;
   color: #db3500;
 }
 .tag:not(body).is-link {
@@ -4892,7 +4892,7 @@ button.dropdown-item.is-active {
   border-color: #363636;
 }
 .message.is-primary {
-  background-color: #f38560;
+  background-color: #209cef;
 }
 .message.is-primary .message-header {
   background-color: #209cef;
@@ -8519,7 +8519,7 @@ a.has-text-primary:focus {
 }
 
 .has-text-primary-light {
-  color: #f38560 !important;
+  color: #209cef !important;
 }
 
 a.has-text-primary-light:hover,
@@ -8528,7 +8528,7 @@ a.has-text-primary-light:focus {
 }
 
 .has-background-primary-light {
-  background-color: #f38560 !important;
+  background-color: #209cef !important;
 }
 
 .has-text-primary-dark {
@@ -11225,7 +11225,7 @@ a.has-text-danger-dark:focus {
   font-weight: bold;
 }
 .menu .menu-list {
-  border-left: solid #f38560 2px;
+  border-left: solid #209cef 2px;
 }
 .menu .menu-list .active-link,
 .menu .menu-list .router-link-active {
@@ -11233,7 +11233,7 @@ a.has-text-danger-dark:focus {
   background-color: #209cef;
 }
 .menu .menu-list > a:hover {
-  background-color: #f38560;
+  background-color: #209cef;
   color: #fff;
 }
 .menu.auth {
@@ -11244,7 +11244,7 @@ a.has-text-danger-dark:focus {
   padding: 0.5em 0.75em;
 }
 .menu.auth div.auth-link:hover {
-  background-color: #f38560;
+  background-color: #209cef;
   color: #fff;
 }
 
@@ -11299,14 +11299,14 @@ header .navbar-item.nav-home {
   border-radius: 0%;
 }
 header .navbar-item.nav-home:hover {
-  border-right: 3px solid #f38560;
-  border-left: 3px solid #f38560;
+  border-right: 3px solid #209cef;
+  border-left: 3px solid #209cef;
 }
 header .fab {
   font-size: 24px;
 }
 header .fab.js-logo {
-  color: #f38560;
+  color: #209cef;
 }
 header .buttons i.fab {
   color: #fff;
@@ -11314,7 +11314,7 @@ header .buttons i.fab {
   margin-right: 10px;
 }
 header .buttons i.fab:hover {
-  color: #f38560;
+  color: #209cef;
 }
 
 .edit-detail .input[readonly] {
@@ -11420,4 +11420,8 @@ button.link {
 
 .product-image {
   width: 50px;
+}
+
+a.navbar-item {
+  text-decoration: none;
 }

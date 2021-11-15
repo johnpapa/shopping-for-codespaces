@@ -1,23 +1,23 @@
 [
   {
     "id": 10,
-    "name": "Strawberries",
-    "description": "16oz package of fresh organic strawberries",
+    "name": "Carrots",
+    "description": "16oz package of fresh organic carrots",
     "quantity": "1",
-    "image": "strawberry.png"
+    "imageClass": "fas fa-carrot fa-3x"
   },
   {
     "id": 20,
-    "name": "Bread",
-    "description": "Loaf of fresh sliced wheat bread",
+    "name": "Lemons",
+    "description": "Bag of ripe lemons",
     "quantity": 1,
-    "image": "bread.png"
+    "imageClass": "fas fa-lemon fa-3x"
   },
   {
     "id": 30,
     "name": "Apples",
     "description": "Bag of 7 fresh McIntosh apples",
     "quantity": 1,
-    "image": "apple.png"
+    "imageClass": "fas fa-apple-whole fa-3x"
   }
 ]

@@ -53,17 +53,17 @@
               <div class="columns is-multiline is-variable">
                 <div class="column is-8">
                   <ul class="list">
-                    <% for(var i=0; i < shopping.length; i++) { %>
+                    <% for(var i=0; i < products.length; i++) { %>
                     <li role="presentation">
                       <div class="card">
                         <div class="card-content">
                           <div class="content columns">
                             <div class="column is-9">
-                              <div class="name"><%= shopping[i].name %></div>
-                              <div class="description"><%= shopping[i].description %></div>
+                              <div class="name"><%= products[i].name %></div>
+                              <div class="description"><%= products[i].description %></div>
                             </div>
                             <div class="column is-3">
-                              <i class="<%= shopping[i].imageClass %>" aria-hidden="true"></i>
+                              <i class="<%= products[i].imageClass %>" aria-hidden="true"></i>
                             </div>
                           </div>
                         </div>

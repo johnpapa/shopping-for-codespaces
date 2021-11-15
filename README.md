@@ -4,9 +4,7 @@ This is a quick node project template for demoing Codespaces. It is based off of
 
 ## Setup
 
-1. Create a new repository in your organization using the `Use this template` button
-
-   <a target="_blank" href="https://github.com/johnpapa/shopping-for-codespaces/generate">Generate your repository in your organization</a>
+1. <a target="_blank" href="https://github.com/johnpapa/shopping-for-codespaces/generate">Generate your repository in your organization, by clicking here.</a>
 
    > This will open in a new tab where you can fill out the name and other details
 

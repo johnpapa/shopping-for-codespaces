@@ -40,9 +40,18 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 1. You browse to the repository on GitHub at <https://github.com/johnpapa/shopping-for-codespaces>.
 1. You press `.` and the code instantly opens in <github.dev>, a fast and free lightweight VS Code editor in the browser.
 
+   > You've customized your local VS Code exactly how you like it. The good news is you can bring those customizations to the browser too!
+
+1. Press the `Accounts` icon in the bottom left of the window (the icon that looks like a user profile).
+1. Select `Turn on Settings Sync`
+1. Select `Sign in and turn on`
+1. Since this is your first time, you will `replace local`.
+
    > Notice that your editor is using your settings from your profile! This can be enabled by turning on or off Setting Sync. All of your settings, extensions, and keyboard preferences are available.
 
-1. You create a new branch named `fix/products` for your intended changes.
+1. You press `<F1>` to open CodeSpaces' command palette.
+1. You type and select `Create New Branch` and name it `fix/products`
+1. You press `<ENTER>` and select `Switch to Branch` and `Leave Site` to refresh to the new branch.
 1. You open the file containing the products in `products.json`.
 1. You add the missing product for hot peppers and save the file.
 
@@ -65,9 +74,9 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
    > You need compute power to run the app and debug it. You can seamlessly transition from <github.dev> to the full power of compute in the cloud. Let's see how.
 
-1. Press the button `Continue Working On ...` to be transitioned to CodeSpaces.
+1. Press the button `Continue Working On ...` and then select `Create New CodeSpace` to be transitioned to CodeSpaces.
 
-   > The browser refreshes and you're now working with compute resources which allow you to run, debug, and use the terminal.
+   > The browser refreshes and you're now working with compute resources which allow you to run, debug, and use the terminal. It even ran `npm install` to prepare your app by installing your dependencies! This is using the default devcontainer for Node.js. You can create a custom devcontainer, by following the link in the terminal comments. But that's for another day, let's debug your app.
 
 1. You press `<F5>` to debug the app.
 
@@ -88,6 +97,7 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
 ### Sort the products using the help of Copilot
 
+1. Stop the debugger.
 1. You press `<F1>` to open CodeSpaces' command palette.
 1. You select `View: Show Extensions`
 1. You search for `GitHub Copilot`, press `Install`, and agree to the terms
@@ -96,7 +106,8 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 1. You type `/// sort the products by name alphabetically`, and hit `<TAB>` and `<ENTER>` to accept it
 1. You are prompted line by line for the code to sort the products. It looks appropriate, so you click `<ENTER>` on each line to accept it, until it is complete.
 1. You delete the old line of code to render the products, now that you have replaced it.
-1. You re-run the debugger, open the browser, and refresh to see your changes!
+1. You press `<F5>` to debug and select `Node.js` as the profile and the debugger launches the application.
+1. You open the browser and see your changes worked!
 
    > Copilot just helped you write the code to sort the products directly in CodeSpaces in the browser. Now let's save your changes.
 

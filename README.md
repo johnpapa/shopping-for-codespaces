@@ -7,7 +7,7 @@ This is a quick node project template for demoing Codespaces. It is based off of
 1. Create a new repository in your organization using the `Use this template` button
 1. Name your repository and continue
 
-## Demo Scenario
+## Demo Story Scenario
 
 An urgent request from your project stakeholders has been sent to you to fix an app. You're asked to jump into the project and add a new missing product and sort the list of products alphabetically. You need to make those changes and you don't have the development environment necessary. But not to worry, you know you can use **github.dev** in the browser to make these changes.
 

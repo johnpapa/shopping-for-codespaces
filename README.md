@@ -56,7 +56,7 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
    > Notice that your editor is using your settings from your profile! This can be enabled by turning on or off Setting Sync. All of your settings, extensions, and keyboard preferences are available.
 
-    <img src=".docs/settings-on.png" width=300 alt="settings enabled">
+    <img src=".docs/settings-on.png" width=600 alt="settings enabled">
 
 1. You press `<F1>` to open the command palette.
 1. You type and select `Create New Branch` and name it `fix/products`
@@ -87,6 +87,8 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
    > The browser refreshes and you're now working with compute resources which allow you to run, debug, and use the terminal. It even ran `npm install` to prepare your app by installing your dependencies! This is using the default devcontainer for Node.js. You can create a custom devcontainer, by following the link in the terminal comments. But that's for another day, let's debug your app.
 
+    <img src=".docs/create-codespace.png" width=600 alt="create codespace">
+
 1. You press `<F5>` to debug the app.
 
    > CodeSpaces recognizes this as a JavaScript application and prompts you for the debugger profile.
@@ -100,9 +102,14 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
 1. Select the `Ports` tab in the Terminal pane.
 1. Notice the visibility is set to `private` by default. You will right click and select `Port Visibility` and `Public`
+
+   > Setting the port to public allows your stakeholders to see the app.
+
+    <img src=".docs/port-public.png" width=300 alt="make the port public">
+
 1. Now the URL can be shared with your stakeholders.
 
-   > Your stakeholders review the running app and their pleased ... until they notice that the products are not sorted in the proper alphabetic order. Uh oh! You're going to fix that! But you can't remember the exact syntax to sort the JavaScript array. You'll use GitHub Co-Pilot to do this.
+   > Your stakeholders review the running app and their pleased ... until they notice that the products are not sorted in the proper ascending order by name. Uh oh! You're going to have to fix that! But you can't remember the exact syntax to sort the JavaScript array. You'll use GitHub Co-Pilot to do this.
 
 ### Sort the products using the help of Copilot
 
@@ -119,6 +126,8 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 1. You open the browser and see your changes worked!
 
    > Copilot just helped you write the code to sort the products directly in CodeSpaces in the browser. Now let's save your changes.
+
+    <img src=".docs/sorting-code.png" width=600 alt="sorting code">
 
 ### Merge your changes
 

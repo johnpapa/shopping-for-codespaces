@@ -130,7 +130,7 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 1. You press `<F5>` to debug and select `Node.js` as the profile and the debugger launches the application.
 1. You open the browser and see your changes worked!
 
-   > Copilot just helped you write the code to sort the products directly in CodeSpaces in the browser. Now let's save your changes.
+   > Copilot just helped you write the code to sort the products directly in CodeSpaces in the browser.
 
     <img src=".docs/final-app.png" width=600 alt="final app">
 

@@ -25,11 +25,11 @@ This is a quick node project template for demoing Codespaces. It is based off of
 
 ## CodeSpaces
 
-![CodeSpaces](.docs/codespaces.png)
+<img src=".docs/codespaces.png" width=600 alt="CodeSpaces">
 
 ## Sample App
 
-![Shopping App](.docs/screenshot.png)
+<img src=".docs/screenshot.png" width=300 alt="Existing App">
 
 ## Demo Scenario
 
@@ -42,14 +42,23 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
    > You've customized your local VS Code exactly how you like it. The good news is you can bring those customizations to the browser too!
 
+    <img src=".docs/github.dev.png" width=600 alt="github.dev">
+
 1. Press the `Accounts` icon in the bottom left of the window (the icon that looks like a user profile).
 1. Select `Turn on Settings Sync`
+
+   > This will bring all of your settings saved to your profile!
+
+   <img src=".docs/enable-settings-sync.png" width=300 alt="settings sync">
+
 1. Select `Sign in and turn on`
 1. Since this is your first time, you will `replace local`.
 
    > Notice that your editor is using your settings from your profile! This can be enabled by turning on or off Setting Sync. All of your settings, extensions, and keyboard preferences are available.
 
-1. You press `<F1>` to open CodeSpaces' command palette.
+    <img src=".docs/settings-on.png" width=300 alt="settings enabled">
+
+1. You press `<F1>` to open the command palette.
 1. You type and select `Create New Branch` and name it `fix/products`
 1. You press `<ENTER>` and select `Switch to Branch` and `Leave Site` to refresh to the new branch.
 1. You open the file containing the products in `products.json`.
@@ -61,7 +70,7 @@ An urgent request from your project stakeholders has been sent to you to fix an 
      "name": "Hot Peppers",
      "description": "8 oz package of hot peppers",
      "quantity": 1,
-     "imageclass": "fas fa-pepper-hot fa-3x"
+     "imageClass": "fas fa-pepper-hot fa-3x"
    }
    ```
 

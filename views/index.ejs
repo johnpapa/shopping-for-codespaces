@@ -4,8 +4,7 @@
     <title>Shopping with CodeSpaces</title>
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      href="https://use.fontawesome.com/releases/v6.0.0-beta2/css/all.css"
       crossorigin="anonymous"
     />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
@@ -56,7 +55,7 @@
                               <div class="description"><%= shopping[i].description %></div>
                             </div>
                             <div class="column is-3">
-                              <img class="product-image" src="/images/<%= shopping[i].image %>" />
+                              <i class="<%= shopping[i].imageClass %>" aria-hidden="true"></i>
                             </div>
                           </div>
                         </div>

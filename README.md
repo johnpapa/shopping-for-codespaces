@@ -107,11 +107,7 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 1. You type `///` to engage with Copilot
 1. You type `/// sort the products by name in ascending order`, and hit `<TAB>` and `<ENTER>` to accept each line.
 1. You are prompted line by line for the code to sort the products. It looks appropriate, so you click `<ENTER>` on each line to accept it, until it is complete.
-1. You delete the old line of code to render the products, now that you have replaced it.
-1. You press `<F5>` to debug and select `Node.js` as the profile and the debugger launches the application.
-1. You open the browser and see your changes worked!
-
-   > Copilot just helped you write the code to sort the products directly in CodeSpaces in the browser. Now let's save your changes.
+1. You comment the old line of code to render the products, now that you have replaced it.
 
    ```javascript
    app.get('/', (req, res) => {
@@ -130,6 +126,11 @@ An urgent request from your project stakeholders has been sent to you to fix an 
      // res.render('index', { products });
    });
    ```
+
+1. You press `<F5>` to debug and select `Node.js` as the profile and the debugger launches the application.
+1. You open the browser and see your changes worked!
+
+   > Copilot just helped you write the code to sort the products directly in CodeSpaces in the browser. Now let's save your changes.
 
     <img src=".docs/final-app.png" width=600 alt="final app">
 

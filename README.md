@@ -113,8 +113,6 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
    > Copilot just helped you write the code to sort the products directly in CodeSpaces in the browser. Now let's save your changes.
 
-    <img src=".docs/sorting-code.png" width=600 alt="sorting code">
-
    ```javascript
    app.get('/', (req, res) => {
      /// sort by name in ascending order

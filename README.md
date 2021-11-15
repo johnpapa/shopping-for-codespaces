@@ -80,6 +80,8 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
     <img src=".docs/debug.png" width=600 alt="debug">
 
+1. You remove the breakpoint and let the debugger continue to render the web apge.
+
    > You notice your hot peppers have been added! Now you want to show the changes to your stakeholders before your merge to the `main` branch, so they can test it and confirm it works for them. You can do this by making your forwarded ports public.
 
 ### Forward your ports publicly to your stakeholders to view them

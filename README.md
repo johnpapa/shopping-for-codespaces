@@ -18,9 +18,9 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 1. You browse to the repository on GitHub at <https://github.com/johnpapa/shopping-for-codespaces>.
 1. You press `.` and the code instantly opens in **github.dev**, a fast and free lightweight VS Code editor in the browser.
 
-   > You've customized your local VS Code exactly how you like it. The good news is you can bring those customizations to the browser too!
-
     <img src=".docs/github.dev.png" width=600 alt="github.dev">
+
+   > You've customized your local VS Code exactly how you like it. The good news is you can bring those customizations to the browser too!
 
 1. Press the `Accounts` icon in the bottom left of the window (the icon that looks like a user profile).
 1. Select `Turn on Settings Sync`

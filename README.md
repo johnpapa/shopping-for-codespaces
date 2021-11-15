@@ -23,17 +23,11 @@ This is a quick node project template for demoing Codespaces. It is based off of
 1. Select `Node.js`
 1. Open a browser to <http://localhost:3000>
 
-## CodeSpaces
-
-<img src=".docs/codespaces.png" width=600 alt="CodeSpaces">
-
-## Sample App
-
-<img src=".docs/screenshot.png" width=300 alt="Existing App">
-
 ## Demo Scenario
 
 An urgent request from your project stakeholders has been sent to you to fix an app. You're asked to jump into the project and add a new missing product and sort the list of products alphabetically. You need to make those changes and you don't have the development environment necessary. But not to worry, you know you can use <github.dev> in the browser to make these changes.
+
+<img src=".docs/screenshot.png" width=300 alt="Existing App">
 
 ### Adding the product in github.dev
 
@@ -89,12 +83,18 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
     <img src=".docs/create-codespace.png" width=600 alt="create codespace">
 
+1. Set a breakpoint in the `index.js` file on the line that renders the products.
+
 1. You press `<F5>` to debug the app.
 
    > CodeSpaces recognizes this as a JavaScript application and prompts you for the debugger profile.
 
 1. You select `Node.js` as the profile and the debugger launches the application.
 1. CodeSpaces alerts and prompts you to open the browser to see the running web application, so you press the button `Open in Browser`, which launches the app.
+
+   > You hit the breakpoint you set in CodeSpaces. You can now debug your application and inspect and change variables.
+
+    <img src=".docs/debug.png" width=600 alt="debug">
 
    > You notice your hot peppers have been added! Now you want to show the changes to your stakeholders before your merge to the `main` branch, so they can test it and confirm it works for them. You can do this by making your forwarded ports public.
 

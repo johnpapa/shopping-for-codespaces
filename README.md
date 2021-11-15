@@ -105,7 +105,7 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
    > Setting the port to public allows your stakeholders to see the app.
 
-    <img src=".docs/port-public.png" width=300 alt="make the port public">
+    <img src=".docs/port-public.png" width=600 alt="make the port public">
 
 1. Now the URL can be shared with your stakeholders.
 

@@ -103,7 +103,7 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 1. You search for `GitHub Copilot`, press `Install`, and agree to the terms
 1. You open the file `index.js` and put the cursor directly before the `render` code.
 1. You type `///` to engage with Copilot
-1. You type `/// sort the products by name alphabetically`, and hit `<TAB>` and `<ENTER>` to accept it
+1. You type `/// sort the products by name in ascending order`, and hit `<TAB>` and `<ENTER>` to accept each line.
 1. You are prompted line by line for the code to sort the products. It looks appropriate, so you click `<ENTER>` on each line to accept it, until it is complete.
 1. You delete the old line of code to render the products, now that you have replaced it.
 1. You press `<F5>` to debug and select `Node.js` as the profile and the debugger launches the application.

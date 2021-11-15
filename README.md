@@ -16,7 +16,7 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 ### Adding the product in github.dev
 
 1. You browse to the repository on GitHub at <https://github.com/johnpapa/shopping-for-codespaces>.
-1. You press `.` and the code instantly opens in <github.dev>, a fast and free lightweight VS Code editor in the browser.
+1. You press `.` and the code instantly opens in **github.dev**, a fast and free lightweight VS Code editor in the browser.
 
    > You've customized your local VS Code exactly how you like it. The good news is you can bring those customizations to the browser too!
 
@@ -59,7 +59,7 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
 1. You want to see the application run to make sure the hot peppers are displayed, so you press `<F5>` to open the debugger.
 
-   > You need compute power to run the app and debug it. You can seamlessly transition from <github.dev> to the full power of compute in the cloud. Let's see how.
+   > You need compute power to run the app and debug it. You can seamlessly transition from **github.dev** to the full power of compute in the cloud. Let's see how.
 
 1. Press the button `Continue Working On ...` and then select `Create New CodeSpace` to be transitioned to CodeSpaces.
 

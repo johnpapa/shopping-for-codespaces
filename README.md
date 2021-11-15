@@ -5,11 +5,16 @@ This is a quick node project template for demoing Codespaces. It is based off of
 ## Setup
 
 1. Create a new repository in your organization using the `Use this template` button
+
+   <a target="_blank" href="https://github.com/johnpapa/shopping-for-codespaces/generate">Generate your repository in your organization</a>
+
+   > This will open in a new tab where you can fill out the name and other details
+
 1. Name your repository and continue
 
 ## Demo Story Scenario
 
-An urgent request from your project stakeholders has been sent to you to fix an app. You're asked to jump into the project and add a new missing product and sort the list of products alphabetically. You need to make those changes and you don't have the development environment necessary. But not to worry, you know you can use **github.dev** in the browser to make these changes.
+An urgent request from your project stakeholders has been sent to you to fix an app. You're asked to jump into the project and add a new missing product to the page and review it with the stakeholders before going live. You need to make the changes and you don't have the local development environment necessary. But not to worry, you know you can use **github.dev** in the browser to make these changes.
 
 <img src=".docs/screenshot.png" width=300 alt="Existing App">
 

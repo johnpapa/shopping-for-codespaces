@@ -14,7 +14,7 @@ This is a quick node project template for demoing Codespaces. It is based off of
 
 An urgent request from your project stakeholders has been sent to you to fix your web app. You need to jump directly into the project and add correct a mistake in the web site that says you're selling 100 lemons in a bag to only 10 lemons in the bag! You need to make the changes and you don't have the local development environment necessary. But not to worry, you know you can use **github.dev** in the browser to make these changes.
 
-<img src=".docs/screenshot.png" width=300 alt="Existing App">
+<img src=".docs/screenshot.png" width=600 alt="Existing App">
 
 ### Adding the product in github.dev
 
@@ -48,13 +48,13 @@ An urgent request from your project stakeholders has been sent to you to fix you
 1. Edit the description for lemons to the proper quantity of 10 per bag.
 
    ```json
-   {
-      "id": 20,
-      "name": "Lemons",
+      "description": "Bag of 100 ripe lemons",
+   ```
+
+   to
+
+   ```json
       "description": "Bag of 10 ripe lemons",
-      "quantity": 1,
-      "imageClass": "fas fa-lemon fa-3x"
-   },
    ```
 
 1. Commit the file changes.

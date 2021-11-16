@@ -12,7 +12,7 @@ This is a quick node project template for demoing Codespaces. It is based off of
 
 ## Demo Story Scenario
 
-An urgent request from your project stakeholders has been sent to you to fix your web app. You need to jump directly into the project and add correct a mistake in the web site that says you're selling 100 lemons in a bag to only 10 lemons in the bag! You need to make the changes and you don't have the local development environment necessary. But not to worry, you know you can use **github.dev** in the browser to make these changes.
+An urgent request from your project stakeholders has been sent to you to fix your web app. You need to jump directly into the project and correct a mistake in the web site that says you're selling 100 lemons in a bag to only 10 lemons in the bag! You need to make the changes and you don't have the local development environment necessary. Not to worry, you know you can use **github.dev** in the browser to make these changes.
 
 <img src=".docs/screenshot.png" width=300 alt="Existing App">
 
@@ -99,7 +99,7 @@ An urgent request from your project stakeholders has been sent to you to fix you
 
     <img src=".docs/debug.png" width=600 alt="debug">
 
-1. Remove the breakpoint and let the debugger continue to render the web apge.
+1. Remove the breakpoint and let the debugger continue to render the webpage.
 
    > You notice your hot peppers have been added! Now you want to show the changes to your stakeholders before your merge to the `main` branch, so they can test it and confirm it works for them. You can do this by making your forwarded ports public.
 

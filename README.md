@@ -12,9 +12,9 @@ This is a quick node project template for demoing Codespaces. It is based off of
 
 ## Demo Story Scenario
 
-An urgent request from your project stakeholders has been sent to you to fix your web app. You need to jump directly into the project and add correct a mistake in the web site that says you're selling 100 lemons in a bag to only 10 lemons in the bag! You need to make the changes and you don't have the local development environment necessary. But not to worry, you know you can use **github.dev** in the browser to make these changes.
+You just received an urgent request from your project stakeholders to fix your web app. You need to jump directly into the project and correct a mistake where the site adds 100 lemons to a customer's bag when it's only supposed to be 10! You need to make the changes and you don't have the local development environment necessary. Not to worry, you know you can use **github.dev** in the browser to make these changes.
 
-<img src=".docs/screenshot.png" width=300 alt="Existing App">
+<img src=".docs/screenshot.png" width=600 alt="Existing App">
 
 ### Adding the product in github.dev
 
@@ -48,20 +48,20 @@ An urgent request from your project stakeholders has been sent to you to fix you
 1. Edit the description for lemons to the proper quantity of 10 per bag.
 
    ```json
-   {
-      "id": 20,
-      "name": "Lemons",
+      "description": "Bag of 100 ripe lemons",
+   ```
+
+   to
+
+   ```json
       "description": "Bag of 10 ripe lemons",
-      "quantity": 1,
-      "imageClass": "fas fa-lemon fa-3x"
-   },
    ```
 
 1. Commit the file changes.
 
 ### Transition to CodeSpaces to run and debug
 
-> While you're editing the `products.json` file you are communicating with your stakeholders to let them know the change is being made. Since you are in there, they ask if you can add a new entry for a new product, hot peppers! Of course you can do this, but you'll feel more confident if you can view the change to verify that it works. You decide it's time to run and debug the app.
+> While you're editing the `products.json` file you are communicating with your stakeholders to let them know the change is being made. Since you're in there, they ask if you can add a new entry for a new product, hot peppers! Of course you can do this, but you'll feel more confident if you can view the change to verify that it works. You decide it's time to run and debug the app.
 
 1. While in the same branch, open the file containing the products in `products.json`.
 1. Add the missing product for hot peppers and save the file.
@@ -114,7 +114,7 @@ An urgent request from your project stakeholders has been sent to you to fix you
 
 1. Now the URL can be shared with your stakeholders.
 
-   > Your stakeholders review the running app and their pleased ... until they notice that the products are not sorted in the proper ascending order by name. Uh oh! You're going to have to fix that! But you can't remember the exact syntax to sort the JavaScript array. You'll use GitHub Co-Pilot to do this.
+   > Your stakeholders review the running app and they're pleased ... until they notice that the products are not sorted in the proper ascending order by name. Uh oh, you're going to have to fix that! But you can't remember the exact syntax to sort the JavaScript array. You'll use GitHub Co-Pilot to do this.
 
 ### Sort the products using the help of Copilot
 
@@ -159,3 +159,7 @@ An urgent request from your project stakeholders has been sent to you to fix you
 1. Commit your changes and push them to the branch.
 1. Create a new Pull Request.
 1. Review, approve, and merge the pull request to the `main` branch.
+
+### Recap
+
+> Let's look back at what we were able to accomplish, all without having the local dev environment. You can edit files, create a new branch, and merge a PR all from **github.dev** in the browser. Then when you want to run your applicaiton, you can continue working on it in CodeSpaces. Here you can debug it and use tools like GitHub Copilot to help write the code your app needs, all from within the browser.

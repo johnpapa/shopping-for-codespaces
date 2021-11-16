@@ -18,8 +18,8 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
 ### Adding the product in github.dev
 
-1. You browse to the repository on GitHub at <https://github.com/johnpapa/shopping-for-codespaces>.
-1. You press `.` and the code instantly opens in **github.dev**, a fast and free lightweight VS Code editor in the browser.
+1. Browse to the repository on GitHub at <https://github.com/johnpapa/shopping-for-codespaces>.
+1. Press `.` and the code instantly opens in **github.dev**, a fast and free lightweight VS Code editor in the browser.
 
     <img src=".docs/github.dev.png" width=600 alt="github.dev">
 
@@ -39,11 +39,11 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
     <img src=".docs/settings-on.png" width=600 alt="settings enabled">
 
-1. You press `<F1>` to open the command palette.
-1. You type and select `Create New Branch` and name it `fix/products`
-1. You press `<ENTER>` and select `Switch to Branch` and `Leave Site` to refresh to the new branch.
-1. You open the file containing the products in `products.json`.
-1. You add the missing product for hot peppers and save the file.
+1. Press `<F1>` to open the command palette.
+1. Type and select `Create New Branch` and name it `fix/products`
+1. Press `<ENTER>` and select `Switch to Branch` and `Leave Site` to refresh to the new branch.
+1. Open the file containing the products in `products.json`.
+1. Add the missing product for hot peppers and save the file.
 
    ```json
    {
@@ -55,8 +55,8 @@ An urgent request from your project stakeholders has been sent to you to fix an 
    }
    ```
 
-1. You commit the file changes.
-1. You push the changes and publish the branch.
+1. Commit the file changes.
+1. Push the changes and publish the branch.
 
 ### Transition to CodeSpaces to run and debug
 
@@ -72,18 +72,18 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
 1. Set a breakpoint in the `index.js` file on the line that renders the products.
 
-1. You press `<F5>` to debug the app.
+1. Press `<F5>` to debug the app.
 
    > CodeSpaces recognizes this as a JavaScript application and prompts you for the debugger profile.
 
-1. You select `Node.js` as the profile and the debugger launches the application.
+1. Select `Node.js` as the profile and the debugger launches the application.
 1. CodeSpaces alerts and prompts you to open the browser to see the running web application, so you press the button `Open in Browser`, which launches the app.
 
    > You hit the breakpoint you set in CodeSpaces. You can now debug your application and inspect and change variables.
 
     <img src=".docs/debug.png" width=600 alt="debug">
 
-1. You remove the breakpoint and let the debugger continue to render the web apge.
+1. Remove the breakpoint and let the debugger continue to render the web apge.
 
    > You notice your hot peppers have been added! Now you want to show the changes to your stakeholders before your merge to the `main` branch, so they can test it and confirm it works for them. You can do this by making your forwarded ports public.
 
@@ -103,14 +103,14 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 ### Sort the products using the help of Copilot
 
 1. Stop the debugger.
-1. You press `<F1>` to open CodeSpaces' command palette.
-1. You select `View: Show Extensions`
-1. You search for `GitHub Copilot`, press `Install`, and agree to the terms
-1. You open the file `index.js` and put the cursor directly before the `render` code.
-1. You type `///` to engage with Copilot
-1. You type `/// sort the products by name in ascending order`, and hit `<TAB>` and `<ENTER>` to accept each line.
-1. You are prompted line by line for the code to sort the products. It looks appropriate, so you click `<ENTER>` on each line to accept it, until it is complete.
-1. You comment the old line of code to render the products, now that you have replaced it.
+1. Press `<F1>` to open CodeSpaces' command palette.
+1. Select `View: Show Extensions`
+1. Search for `GitHub Copilot`, press `Install`, and agree to the terms
+1. Open the file `index.js` and put the cursor directly before the `render` code.
+1. Type `///` to engage with Copilot
+1. Type `/// sort the products by name in ascending order`, and hit `<TAB>` and `<ENTER>` to accept each line.
+1. You're prompted line by line for the code to sort the products. It looks appropriate, so click `<ENTER>` on each line to accept it, until it is complete.
+1. Comment the old line of code to render the products, now that you have replaced it.
 
    ```javascript
    app.get('/', (req, res) => {
@@ -130,8 +130,8 @@ An urgent request from your project stakeholders has been sent to you to fix an 
    });
    ```
 
-1. You press `<F5>` to debug and select `Node.js` as the profile and the debugger launches the application.
-1. You open the browser and see your changes worked!
+1. Press `<F5>` to debug and select `Node.js` as the profile and the debugger launches the application.
+1. Open the browser and see your changes worked!
 
    > Copilot just helped you write the code to sort the products directly in CodeSpaces in the browser.
 
@@ -139,7 +139,7 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 
 ### Merge your changes
 
-1. You stop the debugger.
-1. You commit your changes and push them to the branch.
-1. You create a new Pull Request.
-1. You review, approve and merge the pull request to the `main` branch.
+1. Stop the debugger.
+1. Commit your changes and push them to the branch.
+1. Create a new Pull Request.
+1. Review, approve, and merge the pull request to the `main` branch.

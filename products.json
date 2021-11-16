@@ -9,7 +9,7 @@
   {
     "id": 20,
     "name": "Lemons",
-    "description": "Bag of ripe lemons",
+    "description": "Bag of 100 ripe lemons",
     "quantity": 1,
     "imageClass": "fas fa-lemon fa-3x"
   },

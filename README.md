@@ -12,7 +12,7 @@ This is a quick node project template for demoing Codespaces. It is based off of
 
 ## Demo Story Scenario
 
-An urgent request from your project stakeholders has been sent to you to fix an app. You're asked to jump into the project and add a new missing product to the page and review it with the stakeholders before going live. You need to make the changes and you don't have the local development environment necessary. But not to worry, you know you can use **github.dev** in the browser to make these changes.
+An urgent request from your project stakeholders has been sent to you to fix your web app. You need to jump directly into the project and add correct a mistake in the web site that says you're selling 100 lemons in a bag to only 10 lemons in the bag! You need to make the changes and you don't have the local development environment necessary. But not to worry, you know you can use **github.dev** in the browser to make these changes.
 
 <img src=".docs/screenshot.png" width=300 alt="Existing App">
 
@@ -35,14 +35,35 @@ An urgent request from your project stakeholders has been sent to you to fix an 
 1. Select `Sign in and turn on`
 1. Since this is your first time, you will `replace local`.
 
-   > Notice that your editor is using your settings from your profile! This can be enabled by turning on or off Setting Sync. All of your settings, extensions, and keyboard preferences are available.
+   > Notice that your editor is using your settings from your profile! This can be enabled by turning on or off Settings Sync. All of your settings, extensions, and keyboard preferences are available.
 
     <img src=".docs/settings-on.png" width=600 alt="settings enabled">
+
+   > Now you want to create your changes in separate branch and generate a new pull request.
 
 1. Press `<F1>` to open the command palette.
 1. Type and select `Create New Branch` and name it `fix/products`
 1. Press `<ENTER>` and select `Switch to Branch` and `Leave Site` to refresh to the new branch.
 1. Open the file containing the products in `products.json`.
+1. Edit the description for lemons to the proper quantity of 10 per bag.
+
+   ```json
+   {
+      "id": 20,
+      "name": "Lemons",
+      "description": "Bag of 10 ripe lemons",
+      "quantity": 1,
+      "imageClass": "fas fa-lemon fa-3x"
+   },
+   ```
+
+1. Commit the file changes.
+
+### Transition to CodeSpaces to run and debug
+
+> While you're editing the `products.json` file you are communicating with your stakeholders to let them know the change is being made. Since you are in there, they ask if you can add a new entry for a new product, hot peppers! Of course you can do this, but you'll feel more confident if you can view the change to verify that it works. You decide it's time to run and debug the app.
+
+1. While in the same branch, open the file containing the products in `products.json`.
 1. Add the missing product for hot peppers and save the file.
 
    ```json
@@ -54,11 +75,6 @@ An urgent request from your project stakeholders has been sent to you to fix an 
      "imageClass": "fas fa-pepper-hot fa-3x"
    }
    ```
-
-1. Commit the file changes.
-1. Push the changes and publish the branch.
-
-### Transition to CodeSpaces to run and debug
 
 1. You want to see the application run to make sure the hot peppers are displayed, so you press `<F5>` to open the debugger.
 

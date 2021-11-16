@@ -12,7 +12,7 @@ This is a quick node project template for demoing Codespaces. It is based off of
 
 ## Demo Story Scenario
 
-You just received an urgent request from your project stakeholders to fix your web app. You need to jump directly into the project and correct a mistake where the site adds 100 lemons to a customer's bag when its only supposed to be 10! You need to make the changes and you don't have the local development environment necessary. Not to worry, you know you can use **github.dev** in the browser to make these changes.
+You just received an urgent request from your project stakeholders to fix your web app. You need to jump directly into the project and correct a mistake where the site adds 100 lemons to a customer's bag when it's only supposed to be 10! You need to make the changes and you don't have the local development environment necessary. Not to worry, you know you can use **github.dev** in the browser to make these changes.
 
 <img src=".docs/screenshot.png" width=600 alt="Existing App">
 

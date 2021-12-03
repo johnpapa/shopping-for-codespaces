@@ -9,7 +9,7 @@
   {
     "id": 20,
     "name": "Lemons",
-    "description": "Bag of 100 ripe lemons",
+    "description": "Bag of 10 ripe lemons",
     "quantity": 1,
     "imageClass": "fas fa-lemon fa-3x"
   },
@@ -19,5 +19,12 @@
     "description": "Bag of 7 fresh McIntosh apples",
     "quantity": 1,
     "imageClass": "fas fa-apple-whole fa-3x"
+  }
+  {
+    "id": 40,
+    "name": "Hot Peppers",
+    "description": "8 oz package of hot peppers",
+    "quantity": 1,
+    "imageClass": "fas fa-pepper-hot fa-3x"
   }
 ]

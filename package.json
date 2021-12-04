@@ -1,6 +1,6 @@
 {
   "name": "shopping-wth-codespaces",
-  "description": "Simple Node Express app",
+  "description": "Simple Node Express shopping app for demonstrating codespaces and copilot",
   "version": "0.0.1",
   "private": true,
   "license": "MIT",

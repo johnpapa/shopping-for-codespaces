@@ -4,6 +4,8 @@ This is a quick node project template for demoing Codespaces. It is based off of
 
 ## Setup
 
+Before presenting this demo, be sure to create your own repository from the template, following these instructions:
+
 1. <a target="_blank" href="https://github.com/johnpapa/shopping-for-codespaces/generate">Generate your repository in your organization, by clicking here.</a>
 
    > This will open in a new tab where you can fill out the name and other details
@@ -12,7 +14,11 @@ This is a quick node project template for demoing Codespaces. It is based off of
 
 ## Demo Story Scenario
 
-You just received an urgent request from your project stakeholders to fix your web app. You need to jump directly into the project and correct a mistake where the site adds 100 lemons to a customer's bag when it's only supposed to be 10! You need to make the changes and you don't have the local development environment necessary. Not to worry, you know you can use **github.dev** in the browser to make these changes.
+It's a familiar story ...
+
+You just received an urgent request from your project stakeholders to fix the web app. You need to jump directly into the project and correct a mistake where the site is selling a bag of a 100 lemons when it's only supposed to be 10 per bag!
+
+Compounding the urgency, you need to make the changes and you don't have the local development environment with Node.js and all of the required project dependencies. Not to worry, you know you can use **github.dev** in the browser to make these changes.
 
 <img src=".docs/screenshot.png" width=600 alt="Existing App">
 
@@ -123,14 +129,14 @@ You just received an urgent request from your project stakeholders to fix your w
 1. Select `View: Show Extensions`
 1. Search for `GitHub Copilot`, press `Install`, and agree to the terms
 1. Open the file `index.js` and put the cursor directly before the `render` code.
-1. Type `///` to engage with Copilot
-1. Type `/// sort the products by name in ascending order`, and hit `<TAB>` and `<ENTER>` to accept each line.
+1. Type `//` to engage with Copilot
+1. Type `// sort the products by name in ascending order`, and hit `<TAB>` and `<ENTER>` to accept each line.
 1. You're prompted line by line for the code to sort the products. It looks appropriate, so click `<ENTER>` on each line to accept it, until it is complete.
 1. Comment the old line of code to render the products, now that you have replaced it.
 
    ```javascript
    app.get('/', (req, res) => {
-     /// sort by name in ascending order
+     // sort by name in ascending order
      let sortedProducts = products.sort((a, b) => {
        if (a.name < b.name) {
          return -1;

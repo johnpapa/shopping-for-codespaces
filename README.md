@@ -2,6 +2,14 @@
 
 This is a quick node project template for demoing Codespaces. It is based off of the [Azure node sample](https://github.com/Azure-Samples/nodejs-docs-hello-world) and [Haikus for Codespaces](https://github.com/2percentsilk/haikus-for-codespaces) by [Allison Weins](https://github.com/2percentsilk).
 
+## Top Features
+
+- Start quickly with github.dev: a fast, free and lightweight VS Code editor in the browser
+- Enjoy git integration to create branches and pull requests
+- Continue working on Codespaces to run and debug
+- Share your running app by forwarding ports
+- Extend your code with GitHub Copilot
+
 ## Setup
 
 Before presenting this demo, be sure to create your own repository from the template, following these instructions:

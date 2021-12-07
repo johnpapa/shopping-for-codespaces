@@ -117,13 +117,13 @@ Compounding the urgency, you need to make the changes and you don't have the loc
 1. Select the `Ports` tab in the Terminal pane.
 1. Notice the visibility is set to `private` by default. You will right click and select `Port Visibility` and `Public`
 
-   > Setting the port to public allows your stakeholders to see the app.
+   > Setting the port to public allows your stakeholders to see the app from the URL.
 
     <img src=".docs/port-public.png" width=600 alt="make the port public">
 
 1. Now the URL can be shared with your stakeholders.
 
-   > Your stakeholders review the running app and they're pleased ... until they notice that the products are not sorted in the proper ascending order by name. Uh oh, you're going to have to fix that! But you can't remember the exact syntax to sort the JavaScript array. You'll use GitHub Co-Pilot to do this.
+   > Your stakeholders review the running app and they're quite pleased ... until they notice that the products are not sorted in the proper ascending order by name. Uh oh, you're going to have to fix that! But you can't remember the exact syntax to sort the JavaScript array. You'll use GitHub Copilot to do this.
 
 ### Sort the products using the help of Copilot
 

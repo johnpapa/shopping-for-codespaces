@@ -1,6 +1,6 @@
 # Shopping with Codespaces
 
-This is a quick node project template for demoing Codespaces. It is based off of the [Azure node sample](https://github.com/Azure-Samples/nodejs-docs-hello-world) and [Haikus for CodeSpaces](https://github.com/2percentsilk/haikus-for-codespaces) by [Allison Weins](https://github.com/2percentsilk).
+This is a quick node project template for demoing Codespaces. It is based off of the [Azure node sample](https://github.com/Azure-Samples/nodejs-docs-hello-world) and [Haikus for Codespaces](https://github.com/2percentsilk/haikus-for-codespaces) by [Allison Weins](https://github.com/2percentsilk).
 
 ## Setup
 
@@ -65,7 +65,7 @@ Compounding the urgency, you need to make the changes and you don't have the loc
 
 1. Commit the file changes.
 
-### Transition to CodeSpaces to run and debug
+### Transition to Codespaces to run and debug
 
 > While you're editing the `products.json` file you are communicating with your stakeholders to let them know the change is being made. Since you're in there, they ask if you can add a new entry for a new product, hot peppers! Of course you can do this, but you'll feel more confident if you can view the change to verify that it works. You decide it's time to run and debug the app.
 
@@ -82,26 +82,29 @@ Compounding the urgency, you need to make the changes and you don't have the loc
    }
    ```
 
+1. Now commit these changes.
 1. You want to see the application run to make sure the hot peppers are displayed, so you press `<F5>` to open the debugger.
 
    > You need compute power to run the app and debug it. You can seamlessly transition from **github.dev** to the full power of compute in the cloud. Let's see how.
 
-1. Press the button `Continue Working On ...` and then select `Create New CodeSpace` to be transitioned to CodeSpaces.
+1. Press the button `Continue Working On ...` and then select `Create New CodeSpace` to be transitioned to Codespaces.
 
-   > The browser refreshes and you're now working with compute resources which allow you to run, debug, and use the terminal. It even ran `npm install` to prepare your app by installing your dependencies! This is using the default devcontainer for Node.js. You can create a custom devcontainer, by following the link in the terminal comments. But that's for another day, let's debug your app.
+   > The browser refreshes and you're now working with compute resources which allow you to run, debug, and use the terminal all with the environment you need in the cloud. It even ran `npm install` to install your dependencies! Let's debug your app.
+
+   > Note: You're using the default devcontainer for Node.js. You can create a custom devcontainer, by following the link in the terminal comments. But that's for another day.
 
     <img src=".docs/create-codespace.png" width=600 alt="create codespace">
 
-1. Set a breakpoint in the `index.js` file on the line that renders the products.
+1. Let's open the file `index.js` and set a breakpoint on the line that renders the products.
 
 1. Press `<F5>` to debug the app.
 
-   > CodeSpaces recognizes this as a JavaScript application and prompts you for the debugger profile.
+   > Codespaces recognizes this as a JavaScript application and prompts you for the debugger profile.
 
 1. Select `Node.js` as the profile and the debugger launches the application.
-1. CodeSpaces alerts and prompts you to open the browser to see the running web application, so you press the button `Open in Browser`, which launches the app.
+1. Codespaces alerts and prompts you to open the browser to see the running web application, so you press the button `Open in Browser`, which launches the app.
 
-   > You hit the breakpoint you set in CodeSpaces. You can now debug your application and inspect and change variables.
+   > You hit the breakpoint you set in Codespaces. You can now debug your application and inspect and change variables.
 
     <img src=".docs/debug.png" width=600 alt="debug">
 
@@ -125,7 +128,7 @@ Compounding the urgency, you need to make the changes and you don't have the loc
 ### Sort the products using the help of Copilot
 
 1. Stop the debugger.
-1. Press `<F1>` to open CodeSpaces' command palette.
+1. Press `<F1>` to open Codespaces' command palette.
 1. Select `View: Show Extensions`
 1. Search for `GitHub Copilot`, press `Install`, and agree to the terms
 1. Open the file `index.js` and put the cursor directly before the `render` code.
@@ -155,7 +158,7 @@ Compounding the urgency, you need to make the changes and you don't have the loc
 1. Press `<F5>` to debug and select `Node.js` as the profile and the debugger launches the application.
 1. Open the browser and see your changes worked!
 
-   > Copilot just helped you write the code to sort the products directly in CodeSpaces in the browser.
+   > Copilot just helped you write the code to sort the products directly in Codespaces in the browser.
 
     <img src=".docs/final-app.png" width=600 alt="final app">
 
@@ -168,4 +171,4 @@ Compounding the urgency, you need to make the changes and you don't have the loc
 
 ### Recap
 
-> Let's look back at what we were able to accomplish, all without having the local dev environment. You can edit files, create a new branch, and merge a PR all from **github.dev** in the browser. Then when you want to run your applicaiton, you can continue working on it in CodeSpaces. Here you can debug it and use tools like GitHub Copilot to help write the code your app needs, all from within the browser.
+> Let's look back at what we were able to accomplish, all without having the local dev environment. You can edit files, create a new branch, and merge a PR all from **github.dev** in the browser. Then when you want to run your applicaiton, you can continue working on it in Codespaces. Here you can debug it and use tools like GitHub Copilot to help write the code your app needs, all from within the browser.

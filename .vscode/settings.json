@@ -19,7 +19,7 @@
     "statusBarItem.remoteForeground": "#e7e7e7"
   },
   "peacock.remoteColor": "#42b883",
-  "peacock.color": "007fff",
+  "peacock.color": "#007fff",
   "markdownlint.config": {
     "MD028": false,
     "MD025": {

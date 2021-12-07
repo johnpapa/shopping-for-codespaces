@@ -123,7 +123,7 @@ Compounding the urgency, you need to make the changes and you don't have the loc
 
 1. Now the URL can be shared with your stakeholders.
 
-   > Your stakeholders review the running app and they're quite pleased ... until they notice that the products are not sorted in the proper ascending order by name. Uh oh, you're going to have to fix that! But you can't remember the exact syntax to sort the JavaScript array. You'll use GitHub Copilot to do this.
+   > Your stakeholders review the running app and they're quite pleased ... until they notice that the products are not sorted in the proper ascending order by name. Uh oh, you're going to have to fix that! But you can't remember the exact syntax to sort the JavaScript array. Maybe GitHub Copilot can help you do this.
 
 ### Sort the products using the help of Copilot
 

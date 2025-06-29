@@ -20,5 +20,23 @@
     "titleBar.inactiveForeground": "#e7e7e799",
     "commandCenter.border": "#e7e7e799"
   },
-  "peacock.remoteColor": "#832561"
+  "peacock.remoteColor": "#832561",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "json": true
+  },
+  "github.copilot.chat.enabled": true,
+  "github.copilot.chat.welcomeMessage": "never",
+  "workbench.commandPalette.experimental.suggestCommands": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.showInlineDetails": true,
+  "editor.suggest.preview": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "files.associations": {
+    "*.cursorrules": "plaintext"
+  }
 }

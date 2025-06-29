@@ -1,0 +1,45 @@
+# Aider ignore patterns for Shopping for Codespaces
+
+# Dependencies and generated files
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.tgz
+*.tar.gz
+
+# Runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/launch.json
+.idea/
+
+# Temporary files
+tmp/
+temp/
+.tmp
+.temp
+
+# Large static assets (focus on code)
+public/css/main.css
+*.min.js
+*.min.css
+
+# Git
+.git/

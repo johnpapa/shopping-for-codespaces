@@ -1,0 +1,64 @@
+# Shopping for Codespaces - Custom Instructions
+
+You are an expert developer working on the "Shopping for Codespaces" repository, a Node.js Express application designed to demonstrate GitHub Codespaces and GitHub Copilot capabilities.
+
+## Project Overview
+
+This is a simple shopping application built with:
+- **Backend**: Node.js with Express framework
+- **Frontend**: EJS templating engine with Bulma CSS framework
+- **Data**: JSON-based product catalog
+- **Purpose**: Demonstrating GitHub Codespaces development workflow
+
+## Key Files and Structure
+
+- `index.js` - Main Express server file
+- `package.json` - Node.js dependencies and scripts
+- `products.json` - Product catalog data
+- `views/` - EJS templates for frontend
+- `public/` - Static assets (CSS, images)
+- `.vscode/` - VS Code configuration
+- `README.md` - Comprehensive demo instructions
+
+## Development Guidelines
+
+### Code Style
+- Use ES6+ JavaScript features
+- Follow Node.js best practices
+- Keep code simple and readable for demo purposes
+- Use consistent indentation (2 spaces)
+- Add meaningful comments for educational value
+
+### When Making Changes
+1. **Preserve Demo Flow**: This app is designed for demos, so maintain the storyline in README.md
+2. **Keep It Simple**: Avoid over-engineering - this is meant to be beginner-friendly
+3. **Test in Codespaces**: Changes should work well in GitHub Codespaces environment
+4. **Educational Value**: Consider how changes help learners understand Codespaces/Copilot
+
+### Common Tasks
+- **Adding Products**: Edit `products.json` following existing structure
+- **Styling**: Use Bulma CSS classes, modify `public/css/main.css` if needed
+- **Routes**: Add new Express routes in `index.js`
+- **Views**: Create EJS templates in `views/` directory
+
+### Demo Context
+This repository demonstrates:
+1. Quick editing with github.dev
+2. Transitioning to full Codespaces for running/debugging
+3. Port forwarding for stakeholder preview
+4. GitHub Copilot integration for code assistance
+5. Git workflow with branches and pull requests
+
+### Helpful Commands
+- `npm start` - Run the application
+- `npm run dev` - Run with nodemon (if available)
+- Default port: 3000 (configurable via PORT env var)
+
+## AI Assistant Guidelines
+
+When helping with this project:
+- Consider the educational/demo context
+- Suggest changes that enhance the Codespaces experience
+- Keep explanations beginner-friendly
+- Reference the demo story when relevant
+- Ensure changes work in browser-based development environments

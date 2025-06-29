@@ -9,6 +9,7 @@ This is a quick node project template for demoing Codespaces. It is based off of
 - Continue working on Codespaces to run and debug
 - Share your running app by forwarding ports
 - Extend your code with GitHub Copilot
+- **AI-Enhanced Development**: Custom instructions and MCP server integration for intelligent coding assistance
 
 ## Setup
 
@@ -19,6 +20,28 @@ Before presenting this demo, be sure to create your own repository from the temp
    > This will open in a new tab where you can fill out the name and other details
 
 1. Name your repository and continue
+
+## AI-Enhanced Development
+
+This repository includes enhanced AI integration features to make development more intelligent and efficient:
+
+### Custom Instructions
+- **`.cursorrules`**: Provides context-aware instructions for Cursor IDE and other AI assistants
+- **Enhanced VS Code settings**: Optimized for GitHub Copilot and AI-powered development
+- **Extension recommendations**: Curated list of AI-powered extensions for VS Code
+
+### MCP (Model Context Protocol) Integration
+- **GitHub MCP Server**: Enables AI assistants to interact with GitHub repositories, issues, and pull requests
+- **Filesystem MCP Server**: Provides AI with controlled access to project files
+- **Web Search MCP Server**: Allows AI to search for documentation and resources
+
+See [`AGENTS.md`](AGENTS.md) for detailed setup instructions and usage examples.
+
+### Getting Started with AI Features
+1. **For Cursor IDE**: The `.cursorrules` file is automatically detected
+2. **For Claude Desktop**: Copy `claude_desktop_config.json` to your Claude config directory
+3. **For VS Code**: Install recommended extensions for enhanced AI assistance
+4. **For Aider**: Use the included `.aiderignore` file for optimal performance
 
 ## Demo Story
 

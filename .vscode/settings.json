@@ -20,5 +20,35 @@
     "titleBar.inactiveForeground": "#e7e7e799",
     "commandCenter.border": "#e7e7e799"
   },
-  "peacock.remoteColor": "#832561"
+  "peacock.remoteColor": "#832561",
+  "github.copilot.enable": {
+    "javascript": true,
+    "json": true,
+    "markdown": true,
+    "css": true,
+    "html": true,
+    "ejs": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.chat.followUps": "on",
+  "github.copilot.advanced": {
+    "anonymizeCompletion": false
+  },
+  "files.associations": {
+    "*.ejs": "html"
+  },
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
+  "editor.suggest.showInlineDetails": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "workbench.editorAssociations": {
+    "*.md": "default"
+  }
 }

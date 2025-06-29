@@ -10,8 +10,8 @@
     "dev": "nodemon",
     "test": "./test-integration.sh",
     "test:integration": "./test-integration.sh",
-    "test:playwright": "playwright test",
-    "test:playwright:headed": "playwright test --headed",
+    "test:playwright": "playwright test && playwright show-report",
+    "test:playwright:headed": "playwright test --headed && playwright show-report",
     "test:playwright:ui": "playwright test --ui"
   },
   "dependencies": {

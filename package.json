@@ -8,9 +8,11 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon",
-    "test": "playwright test",
-    "test:headed": "playwright test --headed",
-    "test:ui": "playwright test --ui"
+    "test": "./test-integration.sh",
+    "test:integration": "./test-integration.sh",
+    "test:playwright": "playwright test",
+    "test:playwright:headed": "playwright test --headed",
+    "test:playwright:ui": "playwright test --ui"
   },
   "dependencies": {
     "ejs": "^3.1.10",

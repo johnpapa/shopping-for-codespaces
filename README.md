@@ -20,6 +20,48 @@ Before presenting this demo, be sure to create your own repository from the temp
 
 1. Name your repository and continue
 
+## Local Development
+
+To run this application locally:
+
+1. **Prerequisites**: Make sure you have Node.js installed (version 14 or higher)
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm start
+   ```
+
+4. **Open your browser** and navigate to `http://localhost:3000`
+
+5. **Run tests** to verify everything is working:
+   ```bash
+   npm test
+   ```
+
+### Available Scripts
+
+- `npm start` - Start the production server
+- `npm run dev` - Start the development server with nodemon (auto-restart on changes)
+- `npm test` - Run integration tests
+- `npm run test:playwright` - Run Playwright browser tests (requires browser installation)
+
+## What You Get
+
+This shopping application demonstrates:
+
+- **Express.js backend** serving a simple shopping list
+- **EJS templating** for server-side rendering
+- **Responsive design** using Bulma CSS framework
+- **FontAwesome icons** for visual appeal
+- **JSON data** for product information
+- **Static file serving** for CSS and assets
+- **Integration testing** with automated verification
+
 ## Demo Story
 
 It's a familiar story ...

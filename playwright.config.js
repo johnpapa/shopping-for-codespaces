@@ -31,15 +31,15 @@ module.exports = defineConfig({
       name: 'chromium',
       use: { 
         ...devices['Desktop Chrome'],
-        executablePath: '/usr/bin/chromium-browser'
+        channel: 'chromium'
       },
     },
   ],
 
   /* Run your local dev server before starting the tests */
-  webServer: {
-    command: 'npm start',
-    port: 3000,
-    reuseExistingServer: !process.env.CI,
-  },
+  // webServer: {
+  //   command: 'npm start',
+  //   port: 3000,
+  //   reuseExistingServer: !process.env.CI,
+  // },
 });

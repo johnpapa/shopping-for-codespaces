@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-filesystem", "/home/runner/work/shopping-for-codespaces/shopping-for-codespaces"]
+    },
+    "web-search": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": "${BRAVE_API_KEY}"
+      }
+    }
+  }
+}

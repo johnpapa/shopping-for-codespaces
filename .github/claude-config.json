@@ -1,0 +1,31 @@
+{
+  "name": "Shopping with Codespaces - AI Development Environment",
+  "description": "Enhanced AI assistant configuration for Node.js Express demo application",
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      }
+    },
+    "filesystem": {
+      "command": "npx", 
+      "args": [
+        "@modelcontextprotocol/server-filesystem",
+        "/workspaces/shopping-for-codespaces"
+      ]
+    }
+  },
+  "systemPrompt": "You are an AI assistant helping with a Node.js Express demonstration application designed for GitHub Codespaces and Copilot tutorials. This is an educational project showcasing web development workflows. Please consider the demo/tutorial nature of this codebase and provide suggestions that are educational and easy to understand. The app uses Express.js, EJS templates, and Bulma CSS framework.",
+  "customInstructions": [
+    "This repository demonstrates GitHub Codespaces and Copilot functionality",
+    "Keep suggestions simple and educational for tutorial purposes", 
+    "Preserve the existing Express.js + EJS + Bulma architecture",
+    "Consider the demo workflow: github.dev → Codespaces → port forwarding → Git workflow",
+    "When suggesting code changes, explain the educational value",
+    "Prioritize readability and demonstration value over complex optimizations"
+  ]
+}

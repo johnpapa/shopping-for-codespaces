@@ -20,6 +20,62 @@ Before presenting this demo, be sure to create your own repository from the temp
 
 1. Name your repository and continue
 
+## Local Development
+
+To run this application locally:
+
+1. **Prerequisites**: Make sure you have Node.js installed (version 14 or higher)
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm start
+   ```
+
+4. **Open your browser** and navigate to `http://localhost:3000`
+
+5. **Run tests** to verify everything is working:
+   ```bash
+   npm test
+   ```
+
+### Available Scripts
+
+- `npm start` - Start the production server
+- `npm run dev` - Start the development server with nodemon (auto-restart on changes)
+- `npm test` - Run integration tests
+- `npm run test:playwright` - Run Playwright browser tests (requires browser installation)
+- `npm run test:screenshots` - Generate UI screenshots to verify the application works
+
+## What You Get
+
+This shopping application demonstrates:
+
+- **Express.js backend** serving a simple shopping list
+- **EJS templating** for server-side rendering
+- **Responsive design** using Bulma CSS framework
+- **FontAwesome icons** for visual appeal
+- **JSON data** for product information
+- **Static file serving** for CSS and assets
+- **Integration testing** with automated verification
+- **Playwright screenshot testing** to visually verify the UI works correctly
+
+### UI Screenshots
+
+The application includes automated screenshot testing using Playwright to prove the UI works correctly. Screenshots are automatically generated and saved to the `screenshots/` directory.
+
+**Homepage:**
+
+<img src="https://github.com/user-attachments/assets/c1e70f4d-14c0-480f-bd0c-0fc04ccdd3f8" width="600" alt="Shopping App Homepage">
+
+**Product Card:**
+
+<img src="https://github.com/user-attachments/assets/b0570268-0e6b-4e90-8ed8-5a637efd4ff8" width="400" alt="Product Card Example">
+
 ## Demo Story
 
 It's a familiar story ...

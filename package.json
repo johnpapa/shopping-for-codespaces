@@ -7,11 +7,20 @@
   "author": "Microsoft",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "test": "./test-integration.sh",
+    "test:integration": "./test-integration.sh",
+    "test:playwright": "playwright test && playwright show-report",
+    "test:playwright:headed": "playwright test --headed && playwright show-report",
+    "test:playwright:ui": "playwright test --ui",
+    "test:screenshots": "playwright test tests/screenshots.spec.js"
   },
   "dependencies": {
-    "ejs": "^3.0.1",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.2"
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1"
   }
 }

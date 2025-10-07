@@ -12,7 +12,8 @@
     "test:integration": "./test-integration.sh",
     "test:playwright": "playwright test && playwright show-report",
     "test:playwright:headed": "playwright test --headed && playwright show-report",
-    "test:playwright:ui": "playwright test --ui"
+    "test:playwright:ui": "playwright test --ui",
+    "test:screenshots": "playwright test tests/screenshots.spec.js"
   },
   "dependencies": {
     "ejs": "^3.1.10",

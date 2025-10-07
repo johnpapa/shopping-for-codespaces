@@ -49,6 +49,7 @@ To run this application locally:
 - `npm run dev` - Start the development server with nodemon (auto-restart on changes)
 - `npm test` - Run integration tests
 - `npm run test:playwright` - Run Playwright browser tests (requires browser installation)
+- `npm run test:screenshots` - Generate UI screenshots to verify the application works
 
 ## What You Get
 
@@ -61,6 +62,19 @@ This shopping application demonstrates:
 - **JSON data** for product information
 - **Static file serving** for CSS and assets
 - **Integration testing** with automated verification
+- **Playwright screenshot testing** to visually verify the UI works correctly
+
+### UI Screenshots
+
+The application includes automated screenshot testing using Playwright to prove the UI works correctly. Screenshots are automatically generated and saved to the `screenshots/` directory.
+
+**Homepage:**
+
+<img src="https://github.com/user-attachments/assets/c1e70f4d-14c0-480f-bd0c-0fc04ccdd3f8" width="600" alt="Shopping App Homepage">
+
+**Product Card:**
+
+<img src="https://github.com/user-attachments/assets/b0570268-0e6b-4e90-8ed8-5a637efd4ff8" width="400" alt="Product Card Example">
 
 ## Demo Story
 
